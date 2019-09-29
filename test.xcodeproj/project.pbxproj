@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC172FF8233E17FB00F9CB03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC172FF7233E17FB00F9CB03 /* AppDelegate.swift */; };
-		AC172FFA233E17FB00F9CB03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC172FF9233E17FB00F9CB03 /* SceneDelegate.swift */; };
-		AC172FFC233E17FB00F9CB03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC172FFB233E17FB00F9CB03 /* ViewController.swift */; };
-		AC172FFF233E17FB00F9CB03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC172FFD233E17FB00F9CB03 /* Main.storyboard */; };
-		AC173001233E17FC00F9CB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC173000233E17FC00F9CB03 /* Assets.xcassets */; };
-		AC173004233E17FC00F9CB03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC173002233E17FC00F9CB03 /* LaunchScreen.storyboard */; };
+		ACCA5960233E2C5F00105B95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA595F233E2C5F00105B95 /* AppDelegate.swift */; };
+		ACCA5962233E2C5F00105B95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA5961233E2C5F00105B95 /* SceneDelegate.swift */; };
+		ACCA5964233E2C5F00105B95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA5963233E2C5F00105B95 /* ViewController.swift */; };
+		ACCA5967233E2C5F00105B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCA5965233E2C5F00105B95 /* Main.storyboard */; };
+		ACCA5969233E2C6000105B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCA5968233E2C6000105B95 /* Assets.xcassets */; };
+		ACCA596C233E2C6000105B95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCA596A233E2C6000105B95 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AC172FF4233E17FA00F9CB03 /* travelataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC172FF7233E17FB00F9CB03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC172FF9233E17FB00F9CB03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC172FFB233E17FB00F9CB03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC172FFE233E17FB00F9CB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC173000233E17FC00F9CB03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AC173003233E17FC00F9CB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AC173005233E17FC00F9CB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCA595C233E2C5F00105B95 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCA595F233E2C5F00105B95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACCA5961233E2C5F00105B95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACCA5963233E2C5F00105B95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACCA5966233E2C5F00105B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACCA5968233E2C6000105B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACCA596B233E2C6000105B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACCA596D233E2C6000105B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AC172FF1233E17FA00F9CB03 /* Frameworks */ = {
+		ACCA5959233E2C5F00105B95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AC172FEB233E17FA00F9CB03 = {
+		ACCA5953233E2C5F00105B95 = {
 			isa = PBXGroup;
 			children = (
-				AC172FF6233E17FA00F9CB03 /* travelataApp */,
-				AC172FF5233E17FA00F9CB03 /* Products */,
+				ACCA595E233E2C5F00105B95 /* test */,
+				ACCA595D233E2C5F00105B95 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AC172FF5233E17FA00F9CB03 /* Products */ = {
+		ACCA595D233E2C5F00105B95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC172FF4233E17FA00F9CB03 /* travelataApp.app */,
+				ACCA595C233E2C5F00105B95 /* test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC172FF6233E17FA00F9CB03 /* travelataApp */ = {
+		ACCA595E233E2C5F00105B95 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				AC172FF7233E17FB00F9CB03 /* AppDelegate.swift */,
-				AC172FF9233E17FB00F9CB03 /* SceneDelegate.swift */,
-				AC172FFB233E17FB00F9CB03 /* ViewController.swift */,
-				AC172FFD233E17FB00F9CB03 /* Main.storyboard */,
-				AC173000233E17FC00F9CB03 /* Assets.xcassets */,
-				AC173002233E17FC00F9CB03 /* LaunchScreen.storyboard */,
-				AC173005233E17FC00F9CB03 /* Info.plist */,
+				ACCA595F233E2C5F00105B95 /* AppDelegate.swift */,
+				ACCA5961233E2C5F00105B95 /* SceneDelegate.swift */,
+				ACCA5963233E2C5F00105B95 /* ViewController.swift */,
+				ACCA5965233E2C5F00105B95 /* Main.storyboard */,
+				ACCA5968233E2C6000105B95 /* Assets.xcassets */,
+				ACCA596A233E2C6000105B95 /* LaunchScreen.storyboard */,
+				ACCA596D233E2C6000105B95 /* Info.plist */,
 			);
-			path = travelataApp;
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC172FF3233E17FA00F9CB03 /* travelataApp */ = {
+		ACCA595B233E2C5F00105B95 /* test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC173008233E17FC00F9CB03 /* Build configuration list for PBXNativeTarget "travelataApp" */;
+			buildConfigurationList = ACCA5970233E2C6000105B95 /* Build configuration list for PBXNativeTarget "test" */;
 			buildPhases = (
-				AC172FF0233E17FA00F9CB03 /* Sources */,
-				AC172FF1233E17FA00F9CB03 /* Frameworks */,
-				AC172FF2233E17FA00F9CB03 /* Resources */,
+				ACCA5958233E2C5F00105B95 /* Sources */,
+				ACCA5959233E2C5F00105B95 /* Frameworks */,
+				ACCA595A233E2C5F00105B95 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = travelataApp;
-			productName = travelataApp;
-			productReference = AC172FF4233E17FA00F9CB03 /* travelataApp.app */;
+			name = test;
+			productName = test;
+			productReference = ACCA595C233E2C5F00105B95 /* test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AC172FEC233E17FA00F9CB03 /* Project object */ = {
+		ACCA5954233E2C5F00105B95 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Artem Bobkov";
 				TargetAttributes = {
-					AC172FF3233E17FA00F9CB03 = {
+					ACCA595B233E2C5F00105B95 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = AC172FEF233E17FA00F9CB03 /* Build configuration list for PBXProject "travelataApp" */;
+			buildConfigurationList = ACCA5957233E2C5F00105B95 /* Build configuration list for PBXProject "test" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = AC172FEB233E17FA00F9CB03;
-			productRefGroup = AC172FF5233E17FA00F9CB03 /* Products */;
+			mainGroup = ACCA5953233E2C5F00105B95;
+			productRefGroup = ACCA595D233E2C5F00105B95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC172FF3233E17FA00F9CB03 /* travelataApp */,
+				ACCA595B233E2C5F00105B95 /* test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AC172FF2233E17FA00F9CB03 /* Resources */ = {
+		ACCA595A233E2C5F00105B95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC173004233E17FC00F9CB03 /* LaunchScreen.storyboard in Resources */,
-				AC173001233E17FC00F9CB03 /* Assets.xcassets in Resources */,
-				AC172FFF233E17FB00F9CB03 /* Main.storyboard in Resources */,
+				ACCA596C233E2C6000105B95 /* LaunchScreen.storyboard in Resources */,
+				ACCA5969233E2C6000105B95 /* Assets.xcassets in Resources */,
+				ACCA5967233E2C5F00105B95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AC172FF0233E17FA00F9CB03 /* Sources */ = {
+		ACCA5958233E2C5F00105B95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC172FFC233E17FB00F9CB03 /* ViewController.swift in Sources */,
-				AC172FF8233E17FB00F9CB03 /* AppDelegate.swift in Sources */,
-				AC172FFA233E17FB00F9CB03 /* SceneDelegate.swift in Sources */,
+				ACCA5964233E2C5F00105B95 /* ViewController.swift in Sources */,
+				ACCA5960233E2C5F00105B95 /* AppDelegate.swift in Sources */,
+				ACCA5962233E2C5F00105B95 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AC172FFD233E17FB00F9CB03 /* Main.storyboard */ = {
+		ACCA5965233E2C5F00105B95 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AC172FFE233E17FB00F9CB03 /* Base */,
+				ACCA5966233E2C5F00105B95 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AC173002233E17FC00F9CB03 /* LaunchScreen.storyboard */ = {
+		ACCA596A233E2C6000105B95 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AC173003233E17FC00F9CB03 /* Base */,
+				ACCA596B233E2C6000105B95 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AC173006233E17FC00F9CB03 /* Debug */ = {
+		ACCA596E233E2C6000105B95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		AC173007233E17FC00F9CB03 /* Release */ = {
+		ACCA596F233E2C6000105B95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,35 +280,35 @@
 			};
 			name = Release;
 		};
-		AC173009233E17FC00F9CB03 /* Debug */ = {
+		ACCA5971233E2C6000105B95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = travelataApp/Info.plist;
+				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.calc.test.travelataApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calc.test.test;
+				PRODUCT_NAME = test;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AC17300A233E17FC00F9CB03 /* Release */ = {
+		ACCA5972233E2C6000105B95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = travelataApp/Info.plist;
+				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.calc.test.travelataApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calc.test.test;
+				PRODUCT_NAME = test;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,25 +317,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC172FEF233E17FA00F9CB03 /* Build configuration list for PBXProject "travelataApp" */ = {
+		ACCA5957233E2C5F00105B95 /* Build configuration list for PBXProject "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC173006233E17FC00F9CB03 /* Debug */,
-				AC173007233E17FC00F9CB03 /* Release */,
+				ACCA596E233E2C6000105B95 /* Debug */,
+				ACCA596F233E2C6000105B95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC173008233E17FC00F9CB03 /* Build configuration list for PBXNativeTarget "travelataApp" */ = {
+		ACCA5970233E2C6000105B95 /* Build configuration list for PBXNativeTarget "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC173009233E17FC00F9CB03 /* Debug */,
-				AC17300A233E17FC00F9CB03 /* Release */,
+				ACCA5971233E2C6000105B95 /* Debug */,
+				ACCA5972233E2C6000105B95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AC172FEC233E17FA00F9CB03 /* Project object */;
+	rootObject = ACCA5954233E2C5F00105B95 /* Project object */;
 }

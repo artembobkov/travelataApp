@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  travelataApp
+//  test
 //
 //  Created by Artem Bobkov on 27/09/2019.
 //  Copyright © 2019 Artem Bobkov. All rights reserved.
