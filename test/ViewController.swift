@@ -12,16 +12,25 @@ class ViewController: UIViewController {
     
 
     @IBOutlet weak var dateFromTextField: UITextField!
+    var dateToTextField = UITextField()
+    
+    
     let datePicker = UIDatePicker()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dateFromTextField.inputView = datePicker
+        createTextField(textField: dateFromTextField)
+       
+    }
+    
+    func createTextField( textField:UITextField){
+        textField.inputView = datePicker
         datePicker.datePickerMode = .date
         datePicker.addTarget(self, action: #selector(dateChanged), for: .valueChanged)
-        
+               
     }
+    
     @objc func dateChanged(){
       getDateFromPicker()
         view.endEditing(true)
