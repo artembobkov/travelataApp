@@ -11,60 +11,54 @@ import UIKit
 class ViewController: UIViewController {
     
 
+    @IBOutlet weak var dateToTextField: UITextField!
     @IBOutlet weak var dateFromTextField: UITextField!
-    var dateToTextField = UITextField()
-    
-    
     let datePicker = UIDatePicker()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        createTextField(textField: dateFromTextField)
-       
+        createDatePicker()
+        
     }
     
-    func createTextField( textField:UITextField){
-        textField.inputView = datePicker
+    func createDatePicker(){
+        dateFromTextField.inputView = datePicker
         datePicker.datePickerMode = .date
-        datePicker.addTarget(self, action: #selector(dateChanged), for: .valueChanged)
-               
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(getDateFromPicker))
+        self.view.addGestureRecognizer(tapGesture)
     }
-    
-    @objc func dateChanged(){
-      getDateFromPicker()
-        view.endEditing(true)
-    
-    
-    }
-    
-    func getDateFromPicker(){
+ 
+    @objc func getDateFromPicker(_ dateField:UITextField){
         let formatter = DateFormatter()
-        formatter.dateFormat = "d MMM y"
+        formatter.dateFormat = "MM-dd-yyyy"
         dateFromTextField.text = formatter.string(from: datePicker.date)
+        view.endEditing(true)
+
     }
     
-    
+    // MARK: - IBOutlets
     @IBOutlet weak var countAdultPassangers: UISlider!
-    
     @IBOutlet weak var countKidsPassangers: UISlider!
-    
     @IBOutlet weak var countInfantsPassangers: UISlider!
+    @IBOutlet weak var minimumNightSlider: UISlider!
+    @IBOutlet weak var maximumNightSlider: UISlider!
     
-
-    
-    
+    // MARK: - GetRequest
     
     @IBAction func GetRequest(_ sender: UIButton) {
         
-        let adultPassangers = "touristGroup[adults]=\(Int(countAdultPassangers.value).description)"
+        let adultPassangers = "touristGroup[adults]=\(Int(countAdultPassangers.value))"
         
-        let kidsPassangers = "touristGroup[kids]=\(Int(countKidsPassangers.value).description)"
+        let kidsPassangers = "touristGroup[kids]=\(Int(countKidsPassangers.value))"
         
         let infantsPassangers = "touristGroup[infants]=\(Int(countInfantsPassangers.value).description)"
 
+        let minimumNight = "nightRange[from]=\(Int(minimumNightSlider.value))"
         
-        guard let url = URL(string: "https://api-gateway.travelata.ru/statistic/cheapestTours?countries[]=92&departureCity=2&nightRange[from]=4&nightRange[to]=10&\(adultPassangers)&\(kidsPassangers)&\(infantsPassangers)&checkInDateRange[from]=2019-10-23&checkInDateRange[to]=2019-10-24") else { return }
+        let maximumNight = "nightRange[to]=\(Int(maximumNightSlider.value))"
+        
+        guard let url = URL(string: "https://api-gateway.travelata.ru/statistic/cheapestTours?countries[]=92&departureCity=2&\(minimumNight)&\(maximumNight)&\(adultPassangers)&\(kidsPassangers)&\(infantsPassangers)&checkInDateRange[from]=2019-10-23&checkInDateRange[to]=2019-10-24") else { return }
         
         let session = URLSession.shared
         session.dataTask(with: url) { (data, response, error) in
@@ -89,7 +83,11 @@ class ViewController: UIViewController {
     
     
     @IBAction func printInLog(_ sender: UIButton) {
-        print("touristGroup[infants]=\(Int(countInfantsPassangers.value).description)")
+        print("touristGroup[infants]=\(Int(countInfantsPassangers.value))")
+            print("touristGroup[kids]=\(Int(countKidsPassangers.value))")
+        print("touristGroup[adults]=\(Int(countAdultPassangers.value))")
+            print("nightRange[from]=\(Int(minimumNightSlider.value))")
+            print("nightRange[to]=\(Int(maximumNightSlider.value))")
         
         
       
